@@ -138,11 +138,10 @@ var keyNumLetter = {
 var songs = {
     furElise : ['e','m','j','m','j','m','v','n','b','c','e','y','i','p','c','v',
                 'e','y','i','p','c','b','e','e','e','m','j','m','j','m','v','n','b',
-                'c','v','b','n','m','i','x',',','m','n','t','u','x','m','n','b', 'u',
-                'x','n','b','v', 'e', 'e', 'e', 'm', 'j', 'm','j','m','v','n','b','c'],
+                'c','v','b','n','m','i','x',',','m','n','t','u','x','m','n','b','e',
+                'e', 'e', 'm', 'j', 'm','j','m','v','n','b','c'],
     
-    noSongSelected : [],
-    raindrop : []
+    noSongSelected : []
 }
 
 var letterToPiano = {

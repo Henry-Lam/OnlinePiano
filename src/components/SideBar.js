@@ -80,7 +80,7 @@ class SideBar extends Component {
             
             if ((event.keyCode in keyCodeToLetter) && songs[songNameCode][currNoteIndex] == letterPressed){
                 var currNotesBoxLetter = document.querySelector("#n" + currNoteIndex);
-                currNotesBoxLetter.style.backgroundColor = "yellow";
+                currNotesBoxLetter.style.color = "black";
                 currNoteIndex ++;
             }
         }
@@ -102,7 +102,6 @@ class SideBar extends Component {
                     <div className="dropdown-content">
                         <a href="#" className = "listSongs">No Song Selected</a>
                         <a href="#" className = "listSongs">Fur Elise</a>
-                        <a href="#" className = "listSongs">Raindrop</a>
                     </div>
             </div>
         </div>

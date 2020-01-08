@@ -4,15 +4,9 @@ import SideBar from './SideBar';
 
 class CanvasBar extends React.Component{
 
-
     notifySongChange = (newSong) => {
-        // songName = newSong;
-        // songNoteIndex = 0;
-        // console.log(newSong);
         this.refs.MainCanvas.songChange(newSong);
     }
-
-    
 
     render(){
         return(

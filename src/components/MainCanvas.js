@@ -5,6 +5,8 @@ import MusicNote from "../jsFiles/MusicNote";
 import {Howl, Howler} from 'howler';
 import SideBar from './SideBar';
 // Had to do npm install react-howler
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMusic } from '@fortawesome/free-solid-svg-icons';
 
 class MainCanvasClass extends Component {
 
@@ -29,15 +31,15 @@ class MainCanvasClass extends Component {
         mainCanvas.width = window.innerWidth - (window.innerWidth * reduceFactor); // 0.23
         mainCanvas.height = window.innerHeight - (window.innerHeight * reduceFactor);
         
-        function updateCanvasSize (mainCanvas, window){
-            // I put mainCanvas / window as input so I can put this function
-            // in helperFunc.js later
-            // var reduceFactor = 0.28;
-            // mainCanvas.width = window.innerWidth - (window.innerWidth * reduceFactor); // 0.23
-            // mainCanvas.height = window.innerHeight - (window.innerHeight * reduceFactor);
-        }
+        // function updateCanvasSize (mainCanvas, window){
+        //     // I put mainCanvas / window as input so I can put this function
+        //     // in helperFunc.js later
+        //     // var reduceFactor = 0.28;
+        //     // mainCanvas.width = window.innerWidth - (window.innerWidth * reduceFactor); // 0.23
+        //     // mainCanvas.height = window.innerHeight - (window.innerHeight * reduceFactor);
+        // }
 
-        updateCanvasSize(mainCanvas, window);
+        // updateCanvasSize(mainCanvas, window);
 
         var c = mainCanvas.getContext('2d');
         
@@ -54,11 +56,11 @@ class MainCanvasClass extends Component {
         var scale = mainCanvas.width + mainCanvas.height;
 
         
-        window.addEventListener('resize', function(){
-            // function called every time window 'resizes'
-            updateCanvasSize(mainCanvas, window);
-            scale = mainCanvas.width + mainCanvas.height;
-        })
+        // window.addEventListener('resize', function(){
+        //     // function called every time window 'resizes'
+        //     // updateCanvasSize(mainCanvas, window);
+        //     scale = mainCanvas.width + mainCanvas.height;
+        // })
 
 
         centerImage.onload = function(){
@@ -145,7 +147,7 @@ class MainCanvasClass extends Component {
             var filePath ="./sounds/" + fileName + ".mp3";
             var sound = new Howl({
                 src:[filePath],
-                volume: 1
+                volume: 0.05
             });
             sound.play();
             
@@ -287,7 +289,7 @@ class MainCanvasClass extends Component {
     render(){
         return (
             <div id="canvasDiv">
-                <h1>Hello Title</h1>
+                <h1><span className="title"><FontAwesomeIcon icon={ faMusic }/> Online Piano</span></h1>
                 <canvas id="mainCanvas"></canvas>
             </div>
         );
