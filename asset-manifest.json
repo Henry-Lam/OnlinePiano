@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/onlinepiano/static/css/main.39858de5.chunk.css",
+    "main.js": "/onlinepiano/static/js/main.4454e041.chunk.js",
+    "main.js.map": "/onlinepiano/static/js/main.4454e041.chunk.js.map",
+    "runtime-main.js": "/onlinepiano/static/js/runtime-main.2144c47d.js",
+    "runtime-main.js.map": "/onlinepiano/static/js/runtime-main.2144c47d.js.map",
+    "static/js/2.bb6e5d4b.chunk.js": "/onlinepiano/static/js/2.bb6e5d4b.chunk.js",
+    "static/js/2.bb6e5d4b.chunk.js.map": "/onlinepiano/static/js/2.bb6e5d4b.chunk.js.map",
+    "index.html": "/onlinepiano/index.html",
+    "precache-manifest.e50a259c2e66da8dd5152777bca8d8da.js": "/onlinepiano/precache-manifest.e50a259c2e66da8dd5152777bca8d8da.js",
+    "service-worker.js": "/onlinepiano/service-worker.js",
+    "static/css/main.39858de5.chunk.css.map": "/onlinepiano/static/css/main.39858de5.chunk.css.map",
+    "static/js/2.bb6e5d4b.chunk.js.LICENSE": "/onlinepiano/static/js/2.bb6e5d4b.chunk.js.LICENSE",
+    "static/media/App.css": "/onlinepiano/static/media/musicbg3.28e82b44.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2144c47d.js",
+    "static/js/2.bb6e5d4b.chunk.js",
+    "static/css/main.39858de5.chunk.css",
+    "static/js/main.4454e041.chunk.js"
+  ]
+}
