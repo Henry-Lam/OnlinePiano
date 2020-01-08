@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c671cb09.chunk.css",
-    "main.js": "/static/js/main.b4b13f53.chunk.js",
-    "main.js.map": "/static/js/main.b4b13f53.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.15d4ef56.js",
-    "runtime-main.js.map": "/static/js/runtime-main.15d4ef56.js.map",
-    "static/js/2.bb6e5d4b.chunk.js": "/static/js/2.bb6e5d4b.chunk.js",
-    "static/js/2.bb6e5d4b.chunk.js.map": "/static/js/2.bb6e5d4b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0f8381bee49cf4c3498482867de18c1b.js": "/precache-manifest.0f8381bee49cf4c3498482867de18c1b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c671cb09.chunk.css.map": "/static/css/main.c671cb09.chunk.css.map",
-    "static/js/2.bb6e5d4b.chunk.js.LICENSE": "/static/js/2.bb6e5d4b.chunk.js.LICENSE",
-    "static/media/App.css": "/static/media/musicbg3.28e82b44.jpg"
+    "main.css": "/OnlinePiano/static/css/main.360008ae.chunk.css",
+    "main.js": "/OnlinePiano/static/js/main.bd9f77a8.chunk.js",
+    "main.js.map": "/OnlinePiano/static/js/main.bd9f77a8.chunk.js.map",
+    "runtime-main.js": "/OnlinePiano/static/js/runtime-main.a0e0c3b3.js",
+    "runtime-main.js.map": "/OnlinePiano/static/js/runtime-main.a0e0c3b3.js.map",
+    "static/js/2.bb6e5d4b.chunk.js": "/OnlinePiano/static/js/2.bb6e5d4b.chunk.js",
+    "static/js/2.bb6e5d4b.chunk.js.map": "/OnlinePiano/static/js/2.bb6e5d4b.chunk.js.map",
+    "index.html": "/OnlinePiano/index.html",
+    "precache-manifest.b3a3c1cd75e387093f2499c0f553bce5.js": "/OnlinePiano/precache-manifest.b3a3c1cd75e387093f2499c0f553bce5.js",
+    "service-worker.js": "/OnlinePiano/service-worker.js",
+    "static/css/main.360008ae.chunk.css.map": "/OnlinePiano/static/css/main.360008ae.chunk.css.map",
+    "static/js/2.bb6e5d4b.chunk.js.LICENSE": "/OnlinePiano/static/js/2.bb6e5d4b.chunk.js.LICENSE",
+    "static/media/App.css": "/OnlinePiano/static/media/musicbg3.28e82b44.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15d4ef56.js",
+    "static/js/runtime-main.a0e0c3b3.js",
     "static/js/2.bb6e5d4b.chunk.js",
-    "static/css/main.c671cb09.chunk.css",
-    "static/js/main.b4b13f53.chunk.js"
+    "static/css/main.360008ae.chunk.css",
+    "static/js/main.bd9f77a8.chunk.js"
   ]
 }
